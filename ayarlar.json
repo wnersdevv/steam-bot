@@ -1,0 +1,32 @@
+{
+  "discord": {
+    "token": "DISCORD_BOT_TOKEN_BURAYA",
+    "clientId": "DISCORD_CLIENT_ID_BURAYA",
+    "guildId": "TEST_GUILD_ID_BURAYA",
+    "globalCommands": false
+  },
+  "mongodb": {
+    "uri": "MONGODB_URI_BURAYA"
+  },
+  "steam": {
+    "apiKey": "STEAM_WEB_API_KEY_BURAYA"
+  },
+  "ai": {
+    "enabled": false,
+    "provider": "anthropic",
+    "apiKey": "AI_API_KEY_BURAYA",
+    "model": "claude-sonnet-4-6"
+  },
+  "scheduler": {
+    "priceCheckIntervalMinutes": 60,
+    "achievementCheckIntervalMinutes": 30,
+    "friendStatusIntervalMinutes": 5,
+    "newsCheckIntervalMinutes": 30,
+    "giveawayCheckIntervalMinutes": 1
+  },
+  "cache": {
+    "steamProfileTtlSeconds": 300,
+    "steamAppTtlSeconds": 3600,
+    "steamPriceTtlSeconds": 1800
+  }
+}
